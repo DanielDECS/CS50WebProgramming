@@ -1,0 +1,44 @@
+textarea {
+  min-height: 250px;
+}
+
+#email-recipients,
+.heading {
+  font-weight: bold;
+}
+
+#email-card {
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+.read {
+  background-color: rgb(243, 243, 243);
+}
+
+#archive-icon {
+  height: 2rem;
+
+}
+
+#reply-email-button {
+  margin-bottom: 1%;
+}
+
+.card {
+  position: relative;
+  display: block;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card div {
+  display: flex;
+  justify-content: space-between;
+}
+.card img {
+  margin-right: 12px;
+}
