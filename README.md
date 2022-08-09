@@ -1,4 +1,4 @@
-# Commerce Bay
+# Email client
 This is a front-end for an email client that makes API calls to send and receive emails.
 
 This was Project 3 of HarvardX's CS50w course.
