@@ -76,21 +76,21 @@ https://developer.spotify.com/documentation/general/guides/
 ## Project Files
 
 ```
-music
-│   README.md                       # You are here
-│   requirements.txt                # Project requirements
+capstone                            # Main project folder
+│   README.md                       # This file
+│   requirements.txt                # List of libraries needed to run
 │   ...
 └───api                             # Backend API directory
 │   │
-│   │  models.py                    # Project models
-│   │  serializers.py               # Project serializer
+│   │  models.py                    # Database models
+│   │  serializers.py               # JSON <- communicate -> models/DB
 │   │  urls.py                      # Define routes for querying project API
 │   │  views.py                     # Handle req/res to api
 │   │  ...
 │
 └───frontend                        # Frontend directory
 │   │
-│   │  babel.config.json            # Babel configurations
+│   │  babel.config.json            # Babel compiler settings
 │   │  package.json                 # App configurations and dependencies
 │   │  urls.py                      # Define routes for frontend
 │   │  views.py                     # Handle req/res to frontend
@@ -103,17 +103,17 @@ music
 │   │   └───components              # Directory for React components
 │   │       │
 │   │       │  App.js               # React app main file
-│   │       │  CreateRoomPage.js    # Create room page component
-│   │       │  HomePage.js          # Home page component
-│   │       │  MusicPlayer.js       # Music player component
-│   │       │  Room.js              # Room page component
-│   │       │  RoomJoinPage.js      # Room join page component
+│   │       │  CreateRoomPage.js    # React component that renders Create room page
+│   │       │  HomePage.js          # React component that renders the Home page
+│   │       │  MusicPlayer.js       # React component that renders and controls Music Player actions
+│   │       │  Room.js              # React component that controls the Room page
+│   │       │  RoomJoinPage.js      # React component that renders Room join page
 │   │
 │   └───static                      # Directory for static resources
 │   │   │
 │   │   └───css                     # Directory for stylesheets
 │   │   │   │
-│   │   │   │  index.css            # App stylesheets
+│   │   │   │  index.css            # App stylesheets 
 │   │   │
 │   │   └───frontend                # Directory for main.js file
 │   │   │   ...
@@ -121,16 +121,17 @@ music
 │   │   └───images                  # Directory for images
 │   │       ...
 │   │
-│   └───templates
+│   └───templates                   # App templates
 │       │
 │       └───frontend                # Directory for entry point
 │           │
-│           │  index.html           # App entry point
+│           │  index.html           # App entry point React HTML page where React id="app" is located
 │
-└───music                           # Main project directory
+└───music                           # Django main project folder
 │   │
+│   │  asgi.py                      # Asynconous web servers and wrapped in middleware
 │   │  settings.py                  # Project settings
-│   │  urls.py                      # Define app main routes
+│   │  urls.py                      # Path configuration
 │   │  ...
 │
 └───spotify                         # Spotify API directory
@@ -138,8 +139,8 @@ music
     │  credentials.py               # Spotyfy required credentials
     │  models.py                    # Spotyfy API models
     │  urls.py                      # Define routes for spotify API
-    │  util.py                      # Useful functions used
-    │  views.py                     # Handle req/res to spotify
+    │  util.py                      # Functions used for autentication
+    │  views.py                     # Handle req/res to spotify API
     │  ...
 
 ```
