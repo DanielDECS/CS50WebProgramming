@@ -79,11 +79,13 @@ https://developer.spotify.com/documentation/general/guides/
 
 ```
 capstone                            # Main project folder
+|   .gitignore                      # Files not tracked
 │   README.md                       # This file
+|   db.sqlite3                      # Project data base
+|   manage.py                       # Application management script
 │   requirements.txt                # List of libraries needed to run
-│   ...
+│   
 └───api                             # Backend API directory
-│   │
 │   │  models.py                    # Database models
 │   │  serializers.py               # JSON <- communicate -> models/DB
 │   │  urls.py                      # Define routes for querying project API
@@ -91,7 +93,6 @@ capstone                            # Main project folder
 │   │  ...
 │
 └───frontend                        # Frontend directory
-│   │
 │   │  babel.config.json            # Babel compiler settings
 │   │  package.json                 # App configurations and dependencies
 │   │  urls.py                      # Define routes for frontend
@@ -99,11 +100,9 @@ capstone                            # Main project folder
 │   │  webpack.config               # Webpack configurations
 │   │  ...
 │   └───src                         # Frontend source code
-│   │   │
 │   │   │  index.js                 # Js entry point
 │   │   │
 │   │   └───components              # Directory for React components
-│   │       │
 │   │       │  App.js               # React app main file
 │   │       │  CreateRoomPage.js    # React component that renders Create room page
 │   │       │  HomePage.js          # React component that renders the Home page
@@ -112,9 +111,7 @@ capstone                            # Main project folder
 │   │       │  RoomJoinPage.js      # React component that renders Room join page
 │   │
 │   └───static                      # Directory for static resources
-│   │   │
 │   │   └───css                     # Directory for stylesheets
-│   │   │   │
 │   │   │   │  index.css            # App stylesheets 
 │   │   │
 │   │   └───frontend                # Directory for main.js file
@@ -124,20 +121,16 @@ capstone                            # Main project folder
 │   │       ...
 │   │
 │   └───templates                   # App templates
-│       │
 │       └───frontend                # Directory for entry point
-│           │
 │           │  index.html           # App entry point React HTML page where React id="app" is located
 │
-└───music                           # Django main project folder
-│   │
+└───music                           # Django main app folder
 │   │  asgi.py                      # Asynconous web servers and wrapped in middleware
 │   │  settings.py                  # Project settings
 │   │  urls.py                      # Path configuration
 │   │  ...
 │
 └───spotify                         # Spotify API directory
-    │
     │  credentials.py               # Spotyfy required credentials
     │  models.py                    # Spotyfy API models
     │  urls.py                      # Define routes for spotify API
