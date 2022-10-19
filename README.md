@@ -14,7 +14,9 @@ Music Player is a web application built using React and Django. It allows a grou
 
 The design is distinctive in many ways. One of them is the application's integration with the Spotify API, for authentication and to make it possible for the user to control the music being played in a Spotify playlist by the application itself, being able to advance, rewind, pause or play if he has permission to do so. Django is also configured to operate as an API, using the Django REST Framework.
 
-The project frontend is built using the React library and not the Django html templates. The React frontend allows for fast coding of a transparent Single Page Application (SPA) with customizable aesthetics, quick DOM updates, among other benefits. The React Material UI component library has also been integrated to help with styling.
+The project frontend is built using the React library and not the Django html templates. The React frontend allows for fast coding of a transparent Single Page Application (SPA) with customizable aesthetics, quick DOM updates, among other benefits. Instead of having Django serving HTML, here it is configured to operate as an API (using the Django REST Framework), as would be expected in a single-page application. The React Material UI component library has also been integrated to help with styling.
+
+Creating a project with this structure was considerably more complex than previous tasks due to APIs that had to be built to serve all the necessary data and more JavaScript needed to create reactive UI elements.
 
 ---
 ## Running the App
