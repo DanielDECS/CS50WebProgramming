@@ -63,12 +63,12 @@ The course focuses on building **front-end** and **back-end** development skills
 
 Each project is organized in its own branch, following the course progression:
 
-1. [Project 0 – Search](https://github.com/DanielDECS/CS50WebProgramming/tree/project0-search)
-2. [Project 1 – Wiki](https://github.com/DanielDECS/CS50WebProgramming/tree/project1-wiki)
-3. [Project 2 – Commerce](https://github.com/DanielDECS/CS50WebProgramming/tree/project2-commerce)
-4. [Project 3 – Mail](https://github.com/DanielDECS/CS50WebProgramming/tree/project3-mail)
-5. [Project 4 – Network](https://github.com/DanielDECS/CS50WebProgramming/tree/project4-network)
-6. [Final Project – Capstone](https://github.com/DanielDECS/CS50WebProgramming/tree/final-capstone)
+1. Project 0 – Search
+2. Project 1 – Wiki
+3. Project 2 – Commerce
+4. Project 3 – Mail
+5. Project 4 – Network
+6. Final Project – Capstone
 
 ---
 
