@@ -1,54 +1,94 @@
-# CS50 Web Programming with Python and JavaScript (CS50W) Projects
+<div align="center">
 
-This repository contains the projects completed as part of **CS50's Web Programming with Python and JavaScript (CS50W)**. The course is designed to build practical web development skills through a series of hands-on projects that increase in complexity, covering both front-end and back-end technologies.
+# 🌐 CS50 Web Programming with Python and JavaScript (CS50W)
 
-## Projects Overview
+[![CS50W Certificate](https://img.shields.io/badge/edX-Certificate-blue?style=for-the-badge&logo=edx)](https://courses.edx.org/certificates/b30ce04ec40042868484bfdde954d0c0)
+[![Python](https://img.shields.io/badge/Python-Django-green?style=for-the-badge&logo=python)](https://www.python.org/)
+[![JavaScript](https://img.shields.io/badge/Frontend-JavaScript-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-### Project 0: Search
-- **Focus:** Front-end development
-- **Description:** Create a Google-like search page using HTML and CSS. Introduces basic JavaScript for interactivity.
-- **Skills Learned:** HTML, CSS, basic JavaScript
+</div>
 
-### Project 1: Wiki
-- **Focus:** Back-end development with Python and Django
-- **Description:** Build a Wikipedia-like online encyclopedia. Features include markdown conversion to HTML, search functionality, and potentially editing capabilities.
-- **Skills Learned:** Python, Django, HTML templates, forms, user input handling
+---
 
-### Project 2: Commerce
-- **Focus:** Django and database-driven web development
-- **Description:** Create an eBay-like e-commerce auction site. Includes database design, user authentication, bidding functionality, and optional image handling.
-- **Skills Learned:** Django models, authentication, database management, views, templates
+This repository contains the projects developed during **CS50’s Web Programming with Python and JavaScript (CS50W)** by **Harvard University (via edX)**.  
+The course focuses on building **front-end** and **back-end** development skills through practical projects using **Python**, **Django**, **JavaScript**, and **REST APIs**.
 
-### Project 3: Mail
-- **Focus:** Front-end interactivity with JavaScript
-- **Description:** Build a single-page email client. Uses APIs to send and receive emails and dynamically update the interface.
-- **Skills Learned:** JavaScript, DOM manipulation, asynchronous requests (AJAX/Fetch API)
+---
 
-### Project 4: Network
-- **Focus:** Full-stack development
-- **Description:** Build a social media-like network combining Python, Django, and JavaScript. Includes posting, following, liking, and pagination features.
-- **Skills Learned:** Django, JavaScript, REST APIs, social media application logic
+## 📚 Projects Overview
 
-### Final Project: Capstone
-- **Focus:** Comprehensive web application
-- **Description:** Design and implement a custom web application integrating the skills and concepts learned throughout the course.
-- **Skills Learned:** Full-stack development, project planning, deployment, real-world functionality integration
+### 🧭 Project 0 – Search
+- **Focus:** Front-end development  
+- **Description:** A Google-style search interface built using **HTML**, **CSS**, and basic **JavaScript**.  
+- **Skills Learned:** HTML structure, CSS styling, responsive design, and basic interactivity.
 
-## Repository Structure
+---
 
-Each project is maintained in its own branch, reflecting the progression of the course:
-- `project0-search`
-- `project1-wiki`
-- `project2-commerce`
-- `project3-mail`
-- `project4-network`
-- `final-capstone`
+### 📘 Project 1 – Wiki
+- **Focus:** Back-end with Django  
+- **Description:** A Wikipedia-like encyclopedia supporting search, Markdown-to-HTML conversion, and entry editing.  
+- **Skills Learned:** Django templates, forms, routing, and user input handling.
 
-## Getting Started
+---
 
-To explore a specific project branch:
+### 🛒 Project 2 – Commerce
+- **Focus:** Database-driven web apps  
+- **Description:** An eBay-style auction site with user authentication, bidding system, and optional image uploads.  
+- **Skills Learned:** Django models, authentication, database management, and template logic.
 
-```bash
-git clone https://github.com/SEU_USUARIO/DanielDECS.git
-cd DanielDECS
-git checkout project0-search  # Replace with the desired branch
+---
+
+### 📧 Project 3 – Mail
+- **Focus:** Front-end interactivity  
+- **Description:** A single-page email client that allows users to send, read, and manage emails using APIs.  
+- **Skills Learned:** DOM manipulation, Fetch API, and asynchronous JavaScript.
+
+---
+
+### 🌐 Project 4 – Network
+- **Focus:** Full-stack development  
+- **Description:** A social media platform with posts, likes, follows, and pagination, integrating Django and JavaScript.  
+- **Skills Learned:** Django REST API development, frontend-backend communication, and SPA logic.
+
+---
+
+### 🚀 Final Project – Capstone
+- **Focus:** Complete full-stack application  
+- **Description:** A fully customized web application built from scratch, combining all concepts and tools learned.  
+- **Skills Learned:** Full-stack architecture, planning, deployment, and real-world implementation.
+
+---
+
+## 🗂️ Repository Structure
+
+Each project is organized in its own branch, following the course progression:
+
+project0-search
+project1-wiki
+project2-commerce
+project3-mail
+project4-network
+final-capstone
+
+---
+
+## ⚙️ Getting Started
+
+To explore or clone a specific project branch:
+
+git clone https://github.com/DanielDECS/CS50W.git
+cd CS50W
+git checkout project1-wiki  # Replace with the desired branch
+
+---
+
+## 👨‍💻 Author and Contact
+
+| Detail | Information |
+| :--- | :--- |
+| **Name** | Daniel Soares |
+| **LinkedIn** | [danieldecs](https://www.linkedin.com/in/danieldecs) |
+| **GitHub** | [DanielDECS](https://github.com/DanielDECS) |
+
+
+
